@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Tolong.in</string>
+    <string name="add">Add</string>
+    <string name="name">Name</string>
+    <string name="google_maps_API_key">AIzaSyCnDUmpNp7V7T-yT0z6EU_eCNod16mXlXo</string>
+    <string-array name="Spinner1">
+        <item>-Select Category-</item>
+        <item>Electronic</item>
+        <item>Mechanic</item>
+        <item>Daily Skill</item>
+    </string-array>
+</resources>

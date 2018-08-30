@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewRequestNames"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textViewTransactionID"
+        android:layout_marginEnd="146dp"
+        android:text="Name"
+        android:textSize="10sp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textViewRequestKeahlian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignStart="@+id/textViewRequestNames"
+        android:layout_below="@+id/textViewRequestNames"
+        android:text="Skill"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textViewRequestPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textViewRequestNames"
+        android:layout_below="@+id/textViewRequestKeahlian"
+        android:text="Phone"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textViewUserID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignStart="@+id/textViewRequestNames"
+        android:layout_below="@+id/textViewStatusOnP"
+        android:text="Address"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewRequestEmailOrderBy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textViewRequestNames"
+        android:layout_below="@+id/textViewRequestEmailAcceptBy"
+        android:text="Email Order By"
+        android:textSize="10sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textViewRequestEmailAcceptBy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignStart="@+id/textViewRequestNames"
+        android:layout_below="@+id/textViewRequestPhone"
+        android:text="Email Accept By"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textViewTransactionID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+     android:layout_marginTop="10dp"
+        android:layout_alignStart="@+id/textViewRequestPhone"
+        android:text="Transaction ID"
+        android:textSize="8sp" />
+
+    <TextView
+        android:id="@+id/textViewTransactionID10"
+        android:layout_width="wrap_content"
+        android:layout_height="16dp"
+        android:layout_alignStart="@+id/textViewTransactionID4"
+        android:layout_alignTop="@+id/textViewStatusOnP"
+        android:text="Status"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textViewTransactionID9"
+        android:layout_width="wrap_content"
+        android:layout_height="14dp"
+        android:layout_alignStart="@+id/textViewTransactionID4"
+        android:layout_below="@+id/textViewRequestEmailAcceptBy"
+        android:text="Email Order By"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textViewTransactionID8"
+        android:layout_width="wrap_content"
+        android:layout_height="13dp"
+        android:layout_alignStart="@+id/textViewTransactionID4"
+        android:layout_below="@+id/textViewRequestPhone"
+        android:text="Email Accept By"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textViewTransactionID7"
+        android:layout_width="wrap_content"
+        android:layout_height="14dp"
+        android:layout_alignStart="@+id/textViewTransactionID4"
+        android:layout_below="@+id/textViewRequestKeahlian"
+        android:text="Phone"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textViewTransactionID6"
+        android:layout_width="wrap_content"
+        android:layout_height="14dp"
+        android:layout_alignStart="@+id/textViewTransactionID4"
+        android:layout_below="@+id/textViewRequestNames"
+        android:text="Skill"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textViewTransactionID5"
+        android:layout_width="wrap_content"
+        android:layout_height="13dp"
+        android:layout_alignStart="@+id/textViewTransactionID4"
+        android:layout_alignTop="@+id/textViewRequestNames"
+        android:text="Name"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textViewTransactionID4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textViewTransactionID12"
+        android:layout_below="@+id/textViewStatusOnP"
+        android:text="Address"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textViewTransactionID12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="92dp"
+        android:text="Transaction ID"
+        android:textSize="8sp" />
+
+    <TextView
+        android:id="@+id/textViewStatusOnP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignStart="@+id/textViewRequestNames"
+        android:layout_below="@+id/textViewRequestEmailOrderBy"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewStatusComplete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_above="@+id/textViewUserID"
+        android:layout_alignStart="@+id/textViewRequestNames"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewStatusAccepted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textViewUserID"
+        android:layout_alignStart="@+id/textViewRequestNames"
+        android:textColor="#1dcf29"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewRating"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+
+
+        android:layout_alignBottom="@+id/imageView33"
+        android:layout_toEndOf="@+id/imageView33"
+        android:text="-"
+        android:textSize="17sp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="73dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/transaction" />
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+
+
+        android:layout_alignStart="@+id/imageView9"
+        android:layout_below="@+id/textViewRequestEmailOrderBy"
+        app:srcCompat="@drawable/adminrating" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="133dp"
+        android:background="@android:color/black"
+        android:visibility="visible" />
+
+</RelativeLayout>

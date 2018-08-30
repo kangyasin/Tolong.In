@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "569848749143",
+    "firebase_url": "https://skripsitolongin.firebaseio.com",
+    "project_id": "skripsitolongin",
+    "storage_bucket": "skripsitolongin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569848749143:android:381b7c231f99c416",
+        "android_client_info": {
+          "package_name": "com.example.kevin.skripsitolongin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "569848749143-afc295snibk980gih89uk5jfh01jkab7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQOtwo8clCOKsdeJH-TMBV1f87qYKd_Uw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

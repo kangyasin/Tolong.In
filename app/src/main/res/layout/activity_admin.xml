@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context=".AdminActivity">
+
+    <FrameLayout
+        android:id="@+id/fl"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#ce000000">
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="74dp"
+        android:layout_height="28dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="Logout"
+        android:textSize="7sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="102dp" />
+
+    <TextView
+        android:id="@+id/textViewEmails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonLogout"
+        android:layout_centerHorizontal="true"
+        android:text="EmailUser"
+        android:textColor="@android:color/background_light"
+        android:textSize="17sp"
+        android:textStyle="normal|bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/admin" />
+
+    <ListView
+        android:id="@+id/listViewAsk"
+        android:layout_width="match_parent"
+        android:layout_height="383dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="102dp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textViewTitle"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="87dp"
+        android:text="All User List"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="#ce000000"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/buttonAllUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="#ce000000"
+        android:text="Refresh Data"
+        android:textColor="@android:color/background_light"
+        android:textSize="12sp" />
+
+
+</RelativeLayout>
